@@ -11,7 +11,7 @@ Make a sandwich of your choice.
 1. You have picniced at least once to clear in-game picnic guide.
 2. For best performance, use the default tablecloth on your picnic table.
 	- Other tablecloths may contain white patterns that will slow down the program detecting the white picnic hand cursor.
-	- Yellow tablecloths may intefere with the bowl label reader. (??? haven't tried personally)
+	- Yellow tablecloths may intefere with the bowl label reader.
 3. You have the ingredients in the quantities you want to use.
 
 ## Instructions
@@ -26,27 +26,77 @@ To use a preset recipe, select it from the dropdown. Otherwise, select Custom an
 
 ### Preset Recipes:
 
+Note: While more efficient recipes exist, the below recipes were selected for greater flexibility in herb selection and as a hedge against ingredients falling off.
+
+All preset recipes use the following type-specific fillings:
+
+| Type   | Ingredient |
+|--------|------------|
+|Normal  |Tofu        |
+|Fire|Red Pepper|
+|Water|Cucumber|
+|Electric|Yellow Pepper|
+|Grass|Lettuce|
+|Ice|Klawf Stick|
+|Fighting|Pickle|
+|Poison|Green Pepper|
+|Ground|Ham|
+|Flying|Prosciutto|
+|Psychic|Onion|
+|Bug|Cherry Tomato|
+|Rock|Bacon|
+|Ghost|Red Onion|
+|Dragon|Avocado|
+|Dark|Smoked Fillet|
+|Steel|Hamburger|
+|Fairy|Tomato|
+
 #### Sparkling + Title + Encounter:
 
-The sparkling preset recipes are based off of [this](https://twitter.com/silentdestroysr/status/1597664770991468545) chart, with two extra fillings of Curry Powder for consistency. Each use will require 1x Cucumber, 1x Pickle, 3x type-specific filling, 2x Curry Powder, and 2x Herba Mystica.
+The sparkling preset recipes are based off of [this](https://twitter.com/silentdestroysr/status/1597664770991468545) chart, with two extra fillings of Curry Powder for consistency.
 
-#### Humungo
+Each use will require 1x Cucumber, 1x Pickle, 3x type-specific filling, 2x Curry Powder, and 2x Herba Mystica. For example, a Fighting type sandwich would have: 1x Cucumber, 4x Pickle, 2x Curry Powder, and 2x Herba Mystica.
 
-TODO
+Herba exclusions for this sandwich are:
+- 1x Sweet and 1x Sour do not work
+- 2x Sweet does not work for: Normal, Water, Fighting, Bug, Dragon, Fairy
+- 2x Sour does not work for: Normal, Ice, Bug, Ghost, Dragon, Fairy
+
+#### Humungo + Sparkling + Title
+
+WIP
+
+The humungo recipes are from [here](https://old.reddit.com/r/PokemonScarletViolet/comments/zdpkzh/ive_made_all_18_type_variations_of/iz2zcpj/).
 
 #### Teensy
 
-TODO
+Coming Soon, if this is possible.
 
 #### Herba selection:
 
-All preset recipes require two herba mystica to achieve Lv. 3 Sparkling Power. When selecting the Herba you have/want to use, keep in mind invalid combinations. ex. Sweet and Sour will not result in the effects you want.
+All preset recipes require two herba mystica to achieve Lv. 3 Sparkling Power. When selecting the Herba you have/want to use, keep in mind invalid combinations. ex. Sweet and Sour will not result in the effects you want for the Sparkling + Title + Encounter sandwiches.
 
 ### Custom:
 
 Pick the fillings (ex. Hamburger, Onion) and condiments (ex. Ketchup, Herba) you wish to use. If you want to use an ingredient more than once, select it in multiple rows. Keep in mind the ingredient limits are six fillings and four condiments. If you exceed the limits or do not pick at least one filling and one condiment, the program will throw an error.
 
-If the ingredient selection is valid, the program will attempt to make the sandwich. Larger fillings will be placed first. Not all custom ingredient lists are guaranteed to work, as this program is focused on making sure the preset recipes are consistently. For example, six servings of cherry tomatoes will fail, but there are no recipes that call for six servings of cherry tomatoes.
+For example, a Normal type Sparkling + Title + Encounter sandwich from the preset recipes above would be entered as:
+- Cucumber
+- Pickle
+- Tofu
+- Tofu
+- Tofu
+- Curry Powder
+- Curry Powder
+- 1st Herba
+- 2nd Herba
+
+However, as this is a custom sandwich, you could also do the following for the same effects (assuming the program can place ingredients without falling):
+- Tofu
+- Salty Herba
+- Salty Herba
+
+If the ingredient selection is valid, the program will attempt to make the sandwich. Larger fillings will be placed first and smaller fillings placed last following an internal order the program has. Not all custom ingredient lists are guaranteed to work, as this program is focused on making sure the preset recipes are consistent. For example, six servings of cherry tomatoes will fail, but there are no recipes that call for six servings of cherry tomatoes.
 
 Also note that the baguette will be ignored if selected, as it has no effect on the sandwich outcome.
 
