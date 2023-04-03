@@ -26,7 +26,7 @@ To use a preset recipe, select it from the dropdown. Otherwise, select Custom an
 
 ### Preset Recipes:
 
-Note: While more efficient recipes exist, the below recipes were selected for greater flexibility in herb selection and as a hedge against ingredients falling off.
+Note: While more efficient recipes exist, the below encounter recipes were selected for greater flexibility in herb selection and as a hedge against ingredients falling off.
 
 All preset recipes use the following type-specific fillings:
 
@@ -62,19 +62,19 @@ Herba exclusions for this sandwich are:
 - 2x Sweet does not work for: Normal, Water, Fighting, Bug, Dragon, Fairy
 - 2x Sour does not work for: Normal, Ice, Bug, Ghost, Dragon, Fairy
 
-#### Humungo + Sparkling + Title
+#### Humungo + Sparkling + Title:
 
-WIP
+Both the humungo and teensy recipes are from [here]([https://old.reddit.com/r/PokemonScarletViolet/comments/zdpkzh/ive_made_all_18_type_variations_of/iz2zcpj/](https://old.reddit.com/r/PokemonScarletViolet/comments/zi7ag1/ultimate_guide_for_all_18_types_of/)). Unfortunately, both humungo and teensy are not as flexible as encounter is.
 
-The humungo recipes are from [here](https://old.reddit.com/r/PokemonScarletViolet/comments/zdpkzh/ive_made_all_18_type_variations_of/iz2zcpj/).
+Each use will require 1x type-specific filling, 2x Mustard, 1x Spicy Herba, and 1x Herba Mystica. Spicy Herba is required. The second Herba Mystica can be anything except Sweet.
 
-#### Teensy
+#### Teensy + Sparkling + Title:
 
-Coming Soon, if this is possible.
+Each use will require 1x type-specific filling, 2x Mayonnaise, 1x Sour Herba, and 1x Herba Mystica. Sour Herba is required. The second Herba Mystica can be anything except Sweet.
 
 #### Herba selection:
 
-All preset recipes require two herba mystica to achieve Lv. 3 Sparkling Power. When selecting the Herba you have/want to use, keep in mind invalid combinations. ex. Sweet and Sour will not result in the effects you want for the Sparkling + Title + Encounter sandwiches.
+All preset recipes require two herba mystica to achieve Lv. 3 Sparkling Power. When selecting the Herba you have/want to use, keep in mind invalid combinations. ex. Sweet and Sour will not result in the effects you want for the Sparkling + Title + Encounter sandwiches, and Sweet will not work with Humungo/Teensy at all.
 
 ### Custom:
 
@@ -91,10 +91,12 @@ For example, a Normal type Sparkling + Title + Encounter sandwich from the prese
 - 1st Herba
 - 2nd Herba
 
-However, as this is a custom sandwich, you could also do the following for the same effects (assuming the program can place ingredients without falling):
+However, as this is a custom sandwich, you could also do the following for the same effects\*:
 - Tofu
 - Salty Herba
 - Salty Herba
+
+<sub>\* This assumes the program can place the ingredients without falling. Make sure to test any custom recipes before using with other automated programs.</sub>
 
 If the ingredient selection is valid, the program will attempt to make the sandwich. Larger fillings will be placed first and smaller fillings placed last following an internal order the program has. Not all custom ingredient lists are guaranteed to work, as this program is focused on making sure the preset recipes are consistent. For example, six servings of cherry tomatoes will fail, but there are no recipes that call for six servings of cherry tomatoes.
 
